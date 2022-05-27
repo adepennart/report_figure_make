@@ -1,5 +1,5 @@
 ## About
-These instructions are to be followed to recreate the figures from @adepennart Lund University Masters research project.
+These instructions are to be followed to recreate the figures from [@adepennart](https://github.com/adepennart) Lund University Masters research project.
 
 The code can be directly installed from github (green Code button, top right).
 
