@@ -6,7 +6,7 @@ The code can be directly installed from github (green Code button, top right).
 This program is fully run on the terminal.
 ## Before starting
 
-A **neuPRINT and Catmaid account** are needed for this code.
+A **neuPRINT** and **Catmaid account** are needed for this code.
 
 Before downloading this repository it should be stated that without a neuPRINT and Catmaid account following the instructions below becomes obsolete. These accounts allow access to the neuron databases.
 
