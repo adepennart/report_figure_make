@@ -49,7 +49,8 @@ vol_col=['0,1,0,0.1','0,1,0,0.1','0,1,0,0.05','0,1,0,0.05']
 cmap=[]
 vol_list=[]
 neur_col_dict={}
-outputfile='fly_fig'
+outputfile='output/fly_fig'
+showplot=False
 
 # main code
 # --------------------------------------------------------------------------------------
@@ -83,7 +84,7 @@ for vol, col in vol_colour_dict.items():
     vol.color = col
     vol_list.append(vol)
 
-figure_build(skeletons, cmap,volume=vol_list,show_plot=True,outputfile=outputfile)
+figure_build(skeletons, cmap,volume=vol_list,show_plot=showplot,outputfile=outputfile)
 
 
 
