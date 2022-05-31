@@ -1,8 +1,6 @@
 ## About
 These instructions are to be followed to recreate the figures from @adepennart Lund University Masters research project.
 
-The code can be directly installed from github (green Code button, top right).
-
 This program is fully run on the terminal.
 ## Before starting
 
@@ -20,7 +18,12 @@ Additionaly, two different conda environments (conda environments explained belo
 
 # (PART I): insect (except drosophila) neuron plotting
 ## Installation
+The code can be directly installed from github (green Code button, top right).
 
+Make sure to change into the downloaded directory, the code should resemble something like this.
+```bash=
+cd Downloads/report_figure_make
+```
 ### Conda environment
 First make sure conda is installed. If you do not have conda, refer to online resources on how to install conda.
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
@@ -74,7 +77,7 @@ Don't forget to source.
 ```bash=
 source ~/.bash_profile
 ```
-Verify after sourcing that you are still in your neuprint conda environment.
+Verify after sourcing that you are still in your pymaid conda environment.
 
 a bash script will be used to produce 3 figures, but firstly the script needs to be activated.
 ```bash=
